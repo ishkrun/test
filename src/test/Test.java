@@ -82,6 +82,7 @@ public class Test extends JApplet {
             @Override
             public void handle(ActionEvent event) {
                 System.out.println("Hello World!");
+                exit;
             }
         });
         StackPane root = new StackPane();
